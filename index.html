@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper-cdn.css">
+	<link rel="stylesheet" href="boxicons/css/boxicons.css">
+	<title>Hotel Website</title>
+</head>
+<body>
+<!-- HTML CODE STARTS FOR HEADER -->
+  <header>
+	<div class="top-tile">
+		<small><i class='bx bxs-hand-right' ></i> Welcome to the best rooms offering hotel website that helps you at all costs </small>
+		<div class="certificate-no">
+			<strong>Certificate no: 050120240785</strong>
+		</div>
+	</div>
+
+	<div class="searchContainer">
+		<div class="logo">
+			<h3>The Holiday <span style="color: var(--main-theme-color);">Inn.</span></h3>
+			<span class="dot"></span>
+		</div>
+
+		<div class="searchBox">
+			<div class="categories">
+				<select>
+					<option>All Categories</option>
+					<option>One Bedroom Set</option>
+					<option>Two Bedroom Set</option>
+					<option>Special rooms for couples</option>
+				</select>
+			</div>
+			<div class="searchData">
+				<input type="text" name="search" placeholder="Search Rooms...">
+				<button type ="submit" name="searchbtn"><i class='bx bx-search-alt' ></i></button>
+			</div>
+		</div>
+
+		<div class="contactInfo">
+			<div class="contactInfo-Icon">
+				<a href="tel:+919418090691"><i class='bx bx-phone-call' ></i></a>
+			</div>
+			<div class="contactInfo-details">
+				<h3><a href="tel:+919418090691">+91 9418090691</a></h3>
+				<small>hotelholidayinn@gmail.com</small>
+			</div>
+		</div>
+
+		<div class="menu">
+			<i class='bx bx-menu-alt-right' ></i>
+		</div>
+
+	</div>
+
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="gallery.html">gallery</a></li>
+			<li><a href="about-us.html">About Us</a></li>
+			<li><a href="pay-online.html">Pay Online</a></li>
+			<li><a href="contact-us.html">Contact Us</a></li>
+			
+		</ul>
+		<div class="navbar-right-section">
+			<i class='bx bx-search' id="searchIcon"></i>
+			<a href=""><i class='bx bx-user-circle'></i></a>
+			<a href=""><i class='bx bx-heart' ></i></a>
+			<!-- <a href=""><i class='bx bx-cart' ></i><span class="cartNum">0</span></a> -->
+	</div>
+  </header>
+<!-- HTML CODE ENDS FOR HEADER -->
+
+<!-- SLIDE SECTION HTML CODE STARTS -->
+	<section class="slider-container">
+		<div class="swiper slider">
+			<div class="swiper-wrapper slider-wrapper">
+
+				<div class="swiper-slide slider-slides">
+					<div class="slider-slides-insides">
+						<div class="slider-slides-insides-left">
+							<h1>Super Deluxe with Mountain View</h1>
+							<p>we provide the awesome quality for your stay</p>
+
+							<p>Starting at:</p>
+							<h3>₹3500/-</h3>
+							<a href="room-description.html" class="viewMoreBtn">View More</a>
+						</div>
+						<div class="slider-slides-insides-right">
+							<!-- <img src="images/img-2-bg.png"> -->
+						</div>
+						<div class="slider-image">
+							<img src="images/mountain_view/4.jpg">
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide slider-slides">
+					<div class="slider-slides-insides">
+						<div class="slider-slides-insides-left">
+							<h1>Delux Rooms</h1>
+							<p>Enjoy the stay and make greatest moments with your partner</p>
+
+							<p>Starting at:</p>
+							<h3>₹3000/-</h3>
+							<a href="room-description-2.html" class="viewMoreBtn">View More</a>
+						</div>
+						<div class="slider-slides-insides-right">
+							<!-- <img src="images/img-2.jpg"> -->
+						</div>
+						<div class="slider-image">
+							<img src="images/delux_room/1.jpg">
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide slider-slides">
+					<div class="slider-slides-insides">
+						<div class="slider-slides-insides-left">
+							<h1>Roof top Pent House</h1>
+							<p>Now your family will also enjoying with are stay and create awesome memories</p>
+
+							<p>Starting at:</p>
+							<h3>₹8500/-</h3>
+							<a href="room-description-3.html" class="viewMoreBtn">View More</a>
+						</div>
+						<div class="slider-slides-insides-right">
+							<!-- <img src="images/img-2.jpg"> -->
+						</div>
+						<div class="slider-image">
+							<img src="images/pant_house/1.jpg">
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="paigation-box">
+				<div class="swiper-button-next"></div>
+	   	  <div class="swiper-button-prev"></div>
+   		</div>
+			<!-- <div class="swiper-pagination"></div> -->
+		</div>
+	</section>
+<!-- SLIDE SECTION HTML CODE ENDS -->
+
+
+<!-- Booking Pallete  HTML CODE STARTS -->
+	<section class="booking-pallete">
+		<form action="" method="post">
+		<div class="booking-pallete-cols">
+			<div class="booking-pallete-secs">
+				<div class="insides-pallete">
+					<h3>Check In</h3>
+					<input type="date" name="date" required>
+				</div>
+			</div>
+			<div class="booking-pallete-secs">
+					<div class="insides-pallete">
+					<h3>Check Out</h3>
+					<input type="date" name="date" required>
+				</div>
+			</div>
+			<div class="booking-pallete-secs">
+				<h3>Adults</h3>
+				<div class="persons">
+					<span class="decrement">-</span>
+					<span class="counterNum">01</span>
+					<span class="increment">+</span>
+				</div>
+			</div>
+			<div class="booking-pallete-secs">
+				<h3>Children</h3>
+				<div class="persons">
+					<span class="decrementChild">-</span>
+					<span class="counterNumChild">00</span>
+					<span class="incrementChild">+</span>
+				</div>
+			</div>
+			<div class="bookingBtn">
+				<button type="submit" name="booking"><i class='bx bx-right-arrow-alt'></i></button>
+			</div>
+		</div>
+		</form>
+	</section>
+<!-- Booking Pallete HTML CODE ENDS -->
+
+<!-- Enquire Now form HTML code starts  -->
+<section class="enquire-now">
+	<div class="cut-form"><i class='bx bxs-plus-circle'></i></div>
+	<h2>Enquire Now</h2>
+	<div class="enquire-now-cols">
+		<div class="enquire-now-left">
+			<img src="images/enquire.jpg">
+		</div>
+		<div class="enquire-now-right">
+			<form action="" method="post">
+				<div class="enquire-now-fields">
+					<input type="text" name="" required>
+					<span>Enter Your Name</span>
+				</div>
+				<div class="enquire-now-fields">
+					<input type="email" name="" required>
+					<span>Enter Your Email</span>
+				</div>
+				<div class="enquire-now-fields">
+					<input type="text" name="" required>
+					<span>Enter Your Contact</span>
+				</div>
+				<div class="enquire-now-fields">
+					<input type="text" name="" required>
+					<span>Enter Your City </span>
+				</div>
+				<div class="enquire-now-fields">
+					<div class="enquire-now-fields-insides">
+						<div class="enquire-selects">
+							<h4>Check In</h4>
+							<input type="date" name="" required>
+						</div>
+						<div class="enquire-selects">
+							<h4>Check Out</h4>
+							<input type="date" name="" required>
+						</div>
+					</div>
+				</div>
+				<div class="enquire-selects">
+					<input type="submit" name="" value="Submit" class="enquire-btn">
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<!-- Enquire Now form HTML code ends  -->
+
+<!-- preview our hotel section HTML code starts -->
+<section class="preview-hotel">
+	<div class="preview-hotel-cols">
+		<div class="preview-hotel-left">
+			<h1><span style = "color: #2453D4;">Hotel Holiday Inn:</span><br> Your Serene Retreat in Shimla</h1>
+			<p>Nestled in the heart of Shimla, Hotel Holiday offers a serene retreat amidst stunning mountain vistas. Experience unparalleled comfort in elegantly designed rooms, savor gourmet dining, and enjoy top-notch amenities including a spa, fitness center, and rooftop terrace. Perfect for both leisure and business travelers, Hotel Holiday ensures a memorable stay with exceptional service and modern conveniences. Discover the perfect blend of luxury and tranquility at Hotel Holiday, your ideal getaway in Shimla.</p>
+			<a href="#bookNOW" class="preview-btn">Book Now</a>
+		</div>
+		<div class="preview-hotel-right">
+			<div class="preview-hotel-right-image">
+				<img src="images/book.jpg">
+			</div>
+		</div>
+	</div>
+</section>
+<!-- preview our hotel section HTML code ends -->
+
+<!-- our best rooms section starts -->
+<section class="best-rooms">
+	<h3>Our best categories for your comfort</h3>
+	<div class="best-rooms-cols">
+		<div class="best-rooms-cards">
+			<a href="room-description.html">
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+				</div>
+				<img src="images/mountain_view/4.jpg">
+				<div class="rooms-card-data">
+					<p>Super Deluxe with Mountain View</p>
+					<small>Super Deluxe Room with Breathtaking Mountain Views</small>
+					<div class="rooms-card-price">
+						<strong>from ₹3500/day</strong>
+						<i class='bx bx-chevron-right' ></i>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="best-rooms-cards">
+			<a href="room-description-2.html">
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+				</div>
+				<img src="images/delux_room/1.jpg">
+				<div class="rooms-card-data">
+					<p>Delux Rooms</p>
+					<small>Unwind in Elegance: Deluxe Room for a Perfect Stay</small>
+					<div class="rooms-card-price">
+						<strong>from ₹3000/day</strong>
+						<i class='bx bx-chevron-right' ></i>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="best-rooms-cards">
+			<a href="room-description-3.html">
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+				</div>
+				<img src="images/pant_house/1.jpg">
+				<div class="rooms-card-data">
+					<p>Roof top Pent House</p>
+					<small>Elevate Your Stay: Rooftop Penthouse with Panoramic Views</small>
+					<div class="rooms-card-price">
+						<strong>from ₹8500/day</strong>
+						<i class='bx bx-chevron-right' ></i>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+	<!-- <a href="all-rooms.html" class="allSuits">All Rooms</a> -->
+</section>
+<!-- our best rooms section  ends-->
+
+<!-- Video preview HTML Code starts -->
+<section class="video-preview">
+	<h3>The Holiday Inn <span style="color: #2453D4">Shimla</span></h3>
+	<div class="video-preview-video">
+		<video src="video-hotel.mp4" class="videoplayer" controls loop onclick="playVideo()"></video>
+		<img src="play.png" class="play-img">
+	</div>
+</section>
+<!-- Video preview HTML Code ends -->
+
+<!-- Our popular rooms section html code starts -->
+<section class="popular-rooms">
+	<h3>Our popular Rooms gallery</h3>
+	<div class="rooms-gallery">
+		<div class="rooms-images">
+			<img src="mix/10.jpg">
+			<p>Awesome Decors</p>
+		</div>
+		<div class="rooms-images">
+			<img src="images/delux_room/2.jpg">
+			<p>Cozy Rooms</p>
+		</div>
+		<div class="rooms-images">
+			<img src="images/book.jpg">
+			<p>Enchanted View</p>
+		</div>
+		<div class="rooms-images">
+			<img src="images/pant_house/2.jpg">
+			<p>Luxury Comfort</p>
+		</div>
+		<div class="rooms-images">
+			<img src="mix/5.jpg">
+			<p>Road Side View</p>
+		</div>
+		<div class="rooms-images">
+			<img src="images/mountain_view/5.jpg">
+			<p>Air Conditioners</p>
+		</div>
+		
+		<div class="rooms-images">
+			<img src="images/pant_house/4.jpg">
+			<p>Fresh Air</p>
+		</div>
+		
+		<div class="rooms-images">
+			<img src="images/mountain_view/4.jpg">
+			<p>24/7 Support</p>
+		</div>
+		<div class="rooms-images">
+			<img src="images/mountain_view/1.jpg">
+			<p>Hygienic Toilets</p>
+		</div>
+		
+		
+
+	</div>
+	<a href="gallery.html" class="viewAllBtn">View All</a>
+</section>
+<!-- Our popular rooms section html code ends -->
+
+<!-- Testimonials section code starts -->
+<section class="testimonials">
+	<h3>What are clients said about our services</h3>
+	<div class="swiper testimonials-Swiper">
+		<div class="swiper-wrapper testimonials-cols">
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Paul Phoenix</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>I recently stayed at your hotel and was extremely impressed with the room services. The staff was friendly and accommodating, and the room was clean and comfortable. The amenities were top-notch, and the room was well-stocked with everything I needed. The bed was comfortable and the linens were fresh and clean. The bathroom was spotless and the towels were soft and fluffy. I also appreciated the complimentary breakfast and snacks that were provided. Overall, I had a wonderful experience and would highly recommend your hotel to anyone looking for a comfortable and enjoyable stay.</p>
+			</div>
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Tristian Bazuka</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>I had a wonderful stay at your hotel. The room was spacious, clean and comfortable. The staff was friendly and accommodating. The amenities were top-notch, and the breakfast was delicious. I especially appreciated the extra touches like the complimentary bottled water and snacks. I would highly recommend this hotel to anyone looking for a great place to stay.</p>
+			</div>
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Raman Kureshi</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>I recently stayed at the hotel and was very impressed with the room facilities. The room was spacious and clean, with comfortable beds and plenty of storage space. The bathroom was modern and well-equipped, with a powerful shower and plenty of hot water. The air conditioning was efficient and the Wi-Fi connection was strong and reliable. The staff were friendly and helpful, and the breakfast was delicious. Overall, I had a great stay and would definitely recommend this hotel to anyone looking for a comfortable and enjoyable stay.</p>
+			</div>
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Geetanjali Verma</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>The hotel rooms are perfect! They are spacious, comfortable, and have all the amenities you need for a great stay. Highly recommend!</p>
+			</div>
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Sonakashi Kashyap</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>The hotel rooms were clean and comfortable. The food service was excellent, with a wide variety of delicious options. Highly recommend!</p>
+			</div>
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Ramesh Agnihotri</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>I recently stayed at your hotel and I was absolutely blown away by the quality of the rooms. The beds were incredibly comfortable, the decor was modern and stylish, and the amenities were top-notch. The staff was friendly and accommodating, and the overall atmosphere was very welcoming. I especially enjoyed the complimentary breakfast, which was delicious and had a great variety of options. I would highly recommend your hotel to anyone looking for a comfortable and enjoyable stay.</p>
+			</div>
+			<div class="swiper-slide testimonials-reviews">
+				<div class="bigQuote">
+					<i class='bx bxs-quote-alt-left'></i>
+				</div>
+				<strong>Meeni Desaai</strong>
+				<small>Verified Customer <i class='bx bxs-badge-check' ></i></small>
+				<div class="ratings">
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bxs-star'></i>
+					<i class='bx bx-star' ></i>
+				</div>
+				<p>I recently stayed at the hotel and was absolutely delighted with the room I was given. The view was breathtaking, with a panoramic view of the city skyline. The room was spacious and comfortable, with all the amenities I needed for a comfortable stay. The bed was incredibly comfortable, and the bathroom was spotless. The staff were friendly and helpful, and the hotel was very clean and well-maintained. I would highly recommend this hotel to anyone looking for a great stay in the city. The amenities were top-notch, with a fitness center, pool, and spa. The restaurant was also excellent, with a wide variety of delicious dishes. Overall, I had an amazing stay and would definitely stay here again.</p>
+			</div>
+		</div>
+		<div class="swiper-button-next"></div>
+	  <div class="swiper-button-prev"></div>
+		<!-- <div class="swiper-pagination"></div> -->
+	</div>
+	<a href="review-us.html" class="review-us-btn">Review Us</a>
+</section>
+<!-- Testimonials section code ends -->
+
+<!-- Booking Room code starts -->
+<section class="room-Booking" id="bookNOW">
+	<img src="images/zigzag.png" class="zigzag"> 
+	<h2>Book Now</h2>
+	<div class="room-Booking-cols">
+		<div class="room-Booking-image">
+			<img src="images/book.jpg">
+		</div>
+		<form>
+			<div class="inputs">
+				<input type="text" name="name" required>
+				<span>Your Name</span>
+			</div>
+			<div class="inputs">
+				<input type="text" name="email" required>
+				<span>Your Email</span>
+			</div>
+			<div class="inputs">
+				<input type="text" name="contact" required>
+				<span>Contact Number</span>
+			</div>
+			<div class="inputs">
+				<input type="text" name="location" required>
+				<span>Your City</span>
+			</div>
+			<div class="FromTo" style="display:flex; column-gap: 15px;"> 
+				<div class="inputs">
+					<label style="text-align: center; margin-bottom: 8px; font-weight: bold;">Adults</label>
+					<input type="text" name="adults" placeholder="No. of Adults" required>
+					<!-- <span>Your Name</span> -->
+				</div>
+					<div class="inputs">
+						<label style="text-align: center; margin-bottom: 8px; font-weight: bold;">Children</label>
+					<input type="text" name="children" placeholder="No. of Children">
+					<!-- <span>Your Name</span> -->
+				</div>
+			</div>
+			<div class="FromTo" style="display:flex; column-gap: 15px;"> 
+				<div class="inputs">
+					<label style="text-align: center; margin-bottom: 8px; font-weight: bold;">Check In</label>
+					<input type="date" name="name" required>
+					<!-- <span>Your Name</span> -->
+				</div>
+					<div class="inputs">
+						<label style="text-align: center; margin-bottom: 8px; font-weight: bold;">Check Out</label>
+					<input type="date" name="name" required>
+					<!-- <span>Your Name</span> -->
+				</div>
+			</div>
+			<div class="room-Booking-button">
+				<input type="submit" name="roombooking" value="Submit" class="bookingButton">
+			</div>
+		</form>
+	</div>
+</section>
+<!-- Booking Room code ends -->
+
+<!-- footer section code starts -->
+<!-- Speical offers code starts -->
+<section class="offers">
+		<div class="offers-cols">
+			<div class="offers-left">
+				<img src="images/book.jpg">
+			</div>
+			<div class="offers-right">
+				<p>Hot offer</p>
+				<h1>GET HIGH DISCOUNT
+					FOR <span style="color: orange;">YOUR VACATIONS</span></h1>
+					<a href="contact-us.html" class="bookNowbtn">Enquire Now</a>
+			</div>
+		</div>
+</section>
+<!-- Speical offers code ends -->
+
+<footer>
+	<!-- <img src="footer png.png" class="footerPng"> -->
+	<div class="footer-cols">
+		<div class="footer-secs">
+			<h2>The Holiday <span style="color: var(--main-theme-color);">Inn.</span></h2>
+			<p>Our hotel offers comfortable and spacious rooms with modern amenities to make your stay enjoyable. All rooms are equipped with air conditioning, flat-screen TVs, free Wi-Fi, and private bathrooms. Our friendly staff is available 24/7 to help you with any needs you may have. </p>
+		</div>
+		<div class="footer-secs">
+			<strong>Location</strong>
+			<p><span style="font-weight: bold;">Address :</span> xyz Colony Himachal Pradesh</p>
+			<p><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> <span style="font-weight: bold;">Gmail : </span>hotelgo@gmail.com</p>
+			<a href="tel:01234546789"><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> <span style="font-weight: bold;">Phone :</span> +91 1234567890</a>
+		</div>
+		<div class="footer-secs">
+			<strong>Links</strong>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> Home</a>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> About Us</a>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> Contact Us</a>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> Best Rooms for you</a>
+		</div>
+		<div class="footer-secs">
+			<strong>Our Socials</strong><br>
+			<div class="socials-box">
+				<a href=""><i class='bx bxl-instagram' ></i></a>
+				<a href=""><i class='bx bxl-facebook-circle' ></i></a>
+				<a href=""><i class='bx bxl-facebook' ></i></a>
+				<a href=""><i class='bx bxl-linkedin-square' ></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer section code ends -->
+
+<section class="copyright">
+    <h4>Copyright © 2024 The Hotel Holiday Inn Shimla |</h4><br>
+    <p> 💖 | <a href="https://ashkrrish.online/" target="_blank">AshKrrish.Online</a> | ©2024 | 💖</p>
+</section>
+
+<script src="js/swiper-js-cdn.js"></script>
+<!-- <script src="js/jquery-cdn.js"></script> -->
+<script src="js/scripts.js" defer></script>
+</body>
+</html>

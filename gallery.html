@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper-cdn.css">
+	<link rel="stylesheet" href="boxicons/css/boxicons.css">
+	<title>Rooms Gallery</title>
+</head>
+<body>
+<!-- HTML CODE STARTS FOR HEADER -->
+  <header>
+	<div class="top-tile">
+		<small><i class='bx bxs-hand-right' ></i> Welcome to the best rooms offering hotel website that helps you at all costs </small>
+	</div>
+
+	<div class="searchContainer">
+		<div class="logo">
+			<h3>Hotel <span style="color: var(--main-theme-color);">Go.</span></h3>
+			<span class="dot"></span>
+		</div>
+
+		<div class="searchBox">
+			<div class="categories">
+				<select>
+					<option>All Categories</option>
+					<option>One Bedroom Set</option>
+					<option>Two Bedroom Set</option>
+					<option>Special rooms for couples</option>
+				</select>
+			</div>
+			<div class="searchData">
+				<input type="text" name="search" placeholder="Search Rooms...">
+				<button type ="submit" name="searchbtn"><i class='bx bx-search-alt' ></i></button>
+			</div>
+		</div>
+
+		<div class="contactInfo">
+			<div class="contactInfo-Icon">
+				<i class='bx bx-phone-call' ></i>
+			</div>
+			<div class="contactInfo-details">
+				<h3><a href="tel:+911234567890">+91 1234567890</a></h3>
+				<small>hotelbusiness@gmail.com</small>
+			</div>
+		</div>
+
+		<div class="menu">
+			<i class='bx bx-menu-alt-right' ></i>
+		</div>
+
+	</div>
+
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html" class="active">gallery</a></li>
+			<li><a href="about-us.html">About Us</a></li>
+			<li><a href="contact-us.html">Contact Us</a></li>
+		</ul>
+		<div class="navbar-right-section">
+			<i class='bx bx-search' id="searchIcon"></i>
+			<a href=""><i class='bx bx-user-circle'></i></a>
+			<a href=""><i class='bx bx-heart' ></i></a>
+			<!-- <a href=""><i class='bx bx-cart' ></i><span class="cartNum">0</span></a> -->
+	</div>
+  </header>
+<!-- HTML CODE ENDS FOR HEADER -->
+
+<div class="gallery-container">
+	<h3>Our <span style="color:var(--main-theme-color);">Photo Gallery</span> you loved the most </h3>
+	<div class="gallery-wrapper" style="display:none">
+		<!-- <div class="gallery-images">
+			<img src="images/gal-1.jpg">
+		</div> -->
+	</div>
+
+		<div class="pagination">
+			<!-- <li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
+			<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+			<li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+			<li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+			<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+			<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+			<li class="page-item next-page"><a class="page-link" href="#">Next</a></li> -->
+		</div>
+</div>
+
+<div class="popup-gallery">
+	<img src="images/gallery-images/gal-1.jpg">
+	<div class="nextPrev">
+		<button type="submit" class="PrevButton" onclick = "PreviousButton()"><i class='bx bx-left-arrow-alt' ></i></button>
+		<button type="submit" class="nextButton" onclick="NextButton()"><i class='bx bx-right-arrow-alt'></i></button>
+	</div>
+	<div class="cutGallery"><i class='bx bx-plus-circle'></i></div>
+</div>
+
+<footer>
+	<!-- <img src="footer png.png" class="footerPng"> -->
+	<div class="footer-cols">
+		<div class="footer-secs">
+			<h2>Hotel <span style="color: var(--main-theme-color);">Go.</span></h2>
+			<p>Our hotel offers comfortable and spacious rooms with modern amenities to make your stay enjoyable. All rooms are equipped with air conditioning, flat-screen TVs, free Wi-Fi, and private bathrooms. Our friendly staff is available 24/7 to help you with any needs you may have. </p>
+		</div>
+		<div class="footer-secs">
+			<strong>Location</strong>
+			<p><span style="font-weight: bold;">Address :</span> xyz Colony Himachal Pradesh</p>
+			<p><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> <span style="font-weight: bold;">Gmail : </span>hotelgo@gmail.com</p>
+			<a href="tel:01234546789"><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> <span style="font-weight: bold;">Phone :</span> +91 1234567890</a>
+		</div>
+		<div class="footer-secs">
+			<strong>Links</strong>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> Home</a>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> About Us</a>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> Contact Us</a>
+			<a href=""><i class='bx bx-right-arrow-alt' style="transform: translateY(2px); font-weight: bold; color: var(--main-theme-color);"></i> Best Rooms for you</a>
+		</div>
+		<div class="footer-secs">
+			<strong>Our Socials</strong><br>
+			<div class="socials-box">
+				<a href=""><i class='bx bxl-instagram' ></i></a>
+				<a href=""><i class='bx bxl-facebook-circle' ></i></a>
+				<a href=""><i class='bx bxl-facebook' ></i></a>
+				<a href=""><i class='bx bxl-linkedin-square' ></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer section code ends -->
+
+<script src="js/swiper-js-cdn.js"></script>
+<script src="js/jquery-cdn.js"></script>
+<script src="js/scripts.js" defer></script>
+<script src="js/pagination.js"></script>
+</body>
+</html>
