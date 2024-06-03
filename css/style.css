@@ -89,6 +89,11 @@ body
 {
 	font-weight: bold;
 }
+.searchContainer .logo .logo-img
+{
+	width: 150px;
+	object-fit: cover;
+}
 .searchContainer .logo .dot
 {
 	position: absolute;
